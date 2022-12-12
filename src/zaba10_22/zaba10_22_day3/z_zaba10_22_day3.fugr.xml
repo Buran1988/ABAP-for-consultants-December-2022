@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>ФМники</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZ_ZABA10_22_DAY3TOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZ_ZABA10_22_DAY3</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_ZABA10_22_DAY3_1</FUNCNAME>
+     <SHORT_TEXT>ФМ</SHORT_TEXT>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

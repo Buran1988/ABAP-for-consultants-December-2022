@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>zaba_fm</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZABA_FMTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZABA_FM</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>MY_FM</FUNCNAME>
+     <SHORT_TEXT>fm_blinova</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>RADIUS</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>F</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>RADIUS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>radius</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

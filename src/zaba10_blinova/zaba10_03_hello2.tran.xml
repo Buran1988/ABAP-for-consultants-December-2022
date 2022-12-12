@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TRAN" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TSTC>
+    <TCODE>ZABA10_03_HELLO2</TCODE>
+    <PGMNA>ZABA10_MYFIRST_PROG</PGMNA>
+    <DYPNO>1000</DYPNO>
+    <CINFO>gA==</CINFO>
+   </TSTC>
+   <TSTCC>
+    <TCODE>ZABA10_03_HELLO2</TCODE>
+   </TSTCC>
+   <TSTCT>
+    <SPRSL>R</SPRSL>
+    <TCODE>ZABA10_03_HELLO2</TCODE>
+    <TTEXT>hello</TTEXT>
+   </TSTCT>
+  </asx:values>
+ </asx:abap>
+</abapGit>

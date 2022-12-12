@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>my FM</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZABA10_04_FUGARTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZABA10_04_FUGAR</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_ABA10_04_FM</FUNCNAME>
+     <SHORT_TEXT>my_fm</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>RADIUS</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>F</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>SQUARE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>F</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>RADIUS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Радиус окружности</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>SQUARE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Площадь окружности</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
